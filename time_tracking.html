@@ -2,8 +2,10 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="spreadsheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="spreadsheet_function.js"></script>
     <script> 
     $(function(){
       $("#navbar").load("navbar.html"); 
@@ -12,14 +14,14 @@
   </head>
   <body>
     <div id="navbar"></div>
+    
     <main>
-
     <h1 class="center-text">Time Keeping</h1>
-    <header>
-      <nav>
+    <header class="small-header">
+      <nav class="small-nav">
         <ul>
           <li class="nav-item">
-            <a href="#test" id="daily" class="nav-link active">Daily</a>
+            <a href="#" id="daily" class="nav-link active">Daily</a>
           </li>
           <li class="nav-item">
             <a href="#" id="weekly" class="nav-link">Weekly</a>
