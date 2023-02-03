@@ -3,6 +3,7 @@ body {
   background-color: #222;
   color: #fff;
 }
+
 header {
   background-color: #333;
   border-radius: 20px;
@@ -52,19 +53,20 @@ a {
   padding: 20px;
 }
 
-iframe{
+iframe {
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 }
 
 .google-doc-container {
-  margin: 0 auto; /* center the div horizontally */
+  margin: 0 auto;
+  /* center the div horizontally */
   background-color: #f5f5f5;
   border-radius: 10px;
   overflow: hidden;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 850px;
 }
 
@@ -76,11 +78,13 @@ iframe{
 }
 
 .center-div {
-  width: 50%; /* specify a fixed width for the div */
-  margin: 0 auto; /* center the div horizontally */
+  width: 50%;
+  /* specify a fixed width for the div */
+  margin: 0 auto;
+  /* center the div horizontally */
 }
 
 .center-text {
-  text-align: center; /* center the text horizontally */
+  text-align: center;
+  /* center the text horizontally */
 }
-
