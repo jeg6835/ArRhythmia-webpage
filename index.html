@@ -3,37 +3,22 @@
   <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#navbar").load("navbar.html"); 
+    });
+    </script> 
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li class="active">
-            <a href="home.html">Home</a>
-          </li>
-          <li>
-            <a href="documentation.html">Documentation</a>
-          </li>
-          <li>
-            <a href="four_ups.html">Four Ups</a>
-          </li>
-          <li>
-            <a href="time_tracking.html">Time Tracking</a>
-          </li>
-          <li>
-            <a href="team.html">Team</a>
-          </li>
-          <li>
-            <a href="sponsor.html">Sponsor</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <div id="navbar"></div>
     <main>
       <h1>Pulse: Live to Share</h1>
+
       <div class="text-blurb">
       <p>Pulse is cool!</p>
       </div>
+      <iframe src="https://docs.google.com/document/d/e/2PACX-1vSi1r-WVS5wZREt5n9I1QInphbJxWArGj0fYx9B-FRGAxGFh9HHOCgr1IQ4QUxwJgofK5N4r4uRN42r/pub?embedded=true"></iframe>
     </main>
   </body>
 </html>
