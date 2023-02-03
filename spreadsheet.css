@@ -30,6 +30,7 @@
 
 .active {
   font-weight: bold;
+  background-color: #444;
 }
 
 .spreadsheet-container {
