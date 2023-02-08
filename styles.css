@@ -85,6 +85,13 @@ iframe {
   /* center the div horizontally */
 }
 
+.center-div {
+  width: 50%;
+  /* specify a fixed width for the div */
+  margin: 0 auto;
+  /* center the div horizontally */
+}
+
 .center-text {
   text-align: center;
   /* center the text horizontally */
