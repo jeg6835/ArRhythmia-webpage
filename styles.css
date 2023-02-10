@@ -73,7 +73,6 @@ a {
 iframe {
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
 }
 
 .google-doc-container {
@@ -84,7 +83,6 @@ iframe {
   overflow: hidden;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 850px;
 }
 
 .google-doc-iframe {
@@ -92,13 +90,6 @@ iframe {
   width: 100%;
   height: 900px;
   overflow: scroll;
-}
-
-.center-div {
-  width: 50%;
-  /* specify a fixed width for the div */
-  margin: 0 auto;
-  /* center the div horizontally */
 }
 
 .center-div {

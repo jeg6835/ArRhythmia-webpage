@@ -19,7 +19,8 @@
 }
 
 .nav-item {
-  margin: 0 1rem;
+  background-color: #444;
+  padding: 5px;
 }
 
 .nav-link {
