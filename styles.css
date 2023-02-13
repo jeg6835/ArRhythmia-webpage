@@ -69,11 +69,6 @@ a {
   padding: 20px;
 }
 
-iframe {
-  border: none;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 .google-doc-container {
   margin: 0 auto;
   /* center the div horizontally */
@@ -101,4 +96,18 @@ iframe {
 .center-text {
   text-align: center;
   /* center the text horizontally */
+}
+
+.presentation-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+iframe {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  height: 80%;
 }
